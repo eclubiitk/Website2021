@@ -1,0 +1,64 @@
+body{
+    background-color: black !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder !important;
+    color: #aadb1e !important;
+}
+/* NAVBAR CSS */
+.navbar{
+    top : 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 10;
+    display: block;
+    width: 100%;
+    background-color:black;
+  }
+  .navbar .navbar-nav{
+    margin-right: 1vw !important;
+  }
+  .navbar .navbar-collapse{
+    justify-content: flex-end !important;
+  }
+  .navbar a{
+    color: #aadb1e;
+    font-size: 1.3rem;
+  }
+  .navbar a:visited{
+      color: #aadb1e;
+  }
+  .navbar a:hover{
+      background-color: rgb(130, 130, 130);
+  }
+  .navbar a:active{
+    background-color: rgb(130, 130, 130);
+  }
+  .navbar .navbar-brand{
+    display: flex;
+    align-items: center;
+  }
+  .navbar .navbar-brand img{
+    margin-right: 10px;
+  }
+  .navbar .navbar-brand div{
+    text-align: center;
+  }
+  
+.card{
+    width: 18rem;
+    color:#aadb1e;
+}
+.card-img-top{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 12.727rem !important;
+}
+.card-body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder !important;
+}
+.icons:hover{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}

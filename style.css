@@ -1,0 +1,207 @@
+body{
+    font-family: 'Electrolize', cursive;
+    font-weight: bolder !important;
+  }
+  #backgroundimg{
+    width: 100vw;
+    height: 100%;
+    filter: opacity(70%);
+    top: 0;
+    position: fixed ;
+    z-index: -20;
+  }
+  /* NAVBAR CSS */
+  .navbar{
+    top : 0;
+    position: fixed;
+    z-index: 10;
+    display: block;
+    width: 100%;
+    background-color:black;
+  }
+  .navbar .navbar-nav{
+    margin-right: 1vw !important;
+  }
+  .navbar .navbar-collapse{
+    justify-content: flex-end !important;
+  }
+  .navbar a{
+    color: #aadb1e;
+    font-size: 1.3rem;
+  }
+  .navbar a:visited{
+      color: #aadb1e;
+  }
+  .navbar a:hover{
+      background-color: rgb(130, 130, 130);
+  }
+  .navbar a:active{
+    background-color: rgb(130, 130, 130);
+  }
+  .navbar .navbar-brand{
+    display: flex;
+    align-items: center;
+  }
+  .navbar .navbar-brand img{
+    margin-right: 10px;
+  }
+  .navbar .navbar-brand div{
+    text-align: center;
+  }
+  
+  
+  /* CAROUSEL CSS */
+  #carouselExampleCaptions h2{
+    color: #aadb1e;
+    font-size: 7vw;
+  }
+  #carouselExampleCaptions p{
+    color: #aadb1e;
+    font-size: 1.3vw;
+    text-align: left;
+  }
+  #carouselExampleCaptions .carousel-caption{
+    width: 15vw;
+    top: 8rem;
+  }
+  /* ABOUT  */
+  #about{
+    margin: 1.2rem;
+    font-size: 4.18rem;
+  }
+  #about-body{
+    display: flex;
+    align-items: center !important;
+    justify-content: left;
+  }
+  #about-text{
+    width: 70vw;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    margin-top: 0rem;
+    display: inline-block;
+  }
+  #logo{
+    width: 20vw;
+  }
+  @media screen and (max-width: 425px){
+    #logo{
+        width: 0px;
+        height: 0px;
+      }
+  }
+  /* CLUB ACTIVITIES */
+  
+  #club{
+    margin: 1.2rem;
+    font-size: 4.18rem;
+    text-align: center;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 18rem;
+    height: 20rem;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: black;
+    color: #aadb1e;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: 700;
+  }
+  
+  .flip-card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #FFFFFF;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: 700;
+  }
+  .col{
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .card img{
+    border-radius: 20px;
+    height: 17rem;
+  }
+  .container{
+    margin: 30px;
+    padding: 10px;
+  }
+  /* COUNTER CSS */
+  .counter-text{
+    text-align: center;
+    font-size: xx-large;
+  }
+  .svgcolor{
+    color: azure;
+  }
+
+  /*FACEBOOK PAGE CSS*/
+  .fb{
+    width: 30rem;
+    height: 34rem;
+    margin: auto;
+    display: block;
+    scrollbar-width: none;
+  }
+  
+  /* FOOTER */
+  .footer-icons{
+    fill: #FFFFFF !important;
+    height: 2rem;
+    width: 2rem;
+  }
+  #footer-body{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+   }
+   #footer-body .col{
+    display: flex;
+    justify-content: center;
+   }
+  #footer-heading{
+    display: flex;
+    color: #aadb1e;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  #footer-body img:hover{
+    transform: scale(1.2);
+  }
